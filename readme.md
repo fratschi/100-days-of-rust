@@ -17,8 +17,9 @@ I'm using vscode for rust and github copilot- I hope that github copilot helps a
 
 * [Day 1](rust-001/readme.md) - Install and run first example
 * [Day 2](rust-002/readme.md) - Write a small program that uses structs
+* [Day 3](rust-003/readme.md) - Functions and passing data
 
-* Write some functions and pass values and references
+
 * Use Result for returning optional results
 * Open a file and iterate over all lines
 * Open a yaml and a json file and load it into a struct
