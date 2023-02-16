@@ -19,4 +19,4 @@
   * alloc seems to be a create... maybe this and other creates are automatically imported
 
 # Todo's
-* Why can println! take no reference and there is no error of the borrow checker?
+* [Why can println! take no reference and there is no error of the borrow checker?](https://github.com/fratschi/100-days-of-rust/issues/3)
