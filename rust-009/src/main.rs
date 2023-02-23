@@ -27,7 +27,7 @@ mod tests {
             "given_name": "John"
         }"#;
 
-        let person: Person = serde_json::from_str(data).expect("JSON was not well-formatted");
+        let person: Person = serde_json::from_str(data).expect("error");
         println!("{:?}", person)
     }
 }
