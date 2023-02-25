@@ -4,6 +4,7 @@ enum Item {
     Parallel { items: Vec<Item> },
 }
 
+
 fn sla(sla: f32) -> f32 {
     sla / 100f32
 }
@@ -25,7 +26,7 @@ fn calculate_sla(items: &Item) -> f32 {
         Item::Parallel { items: i } => {
             let mut inner = 1f32;
             for item in i {
-                inner *= (1f32 - calculate_sla(item));
+                inner *= 1f32 - calculate_sla(item);
             }
             sla *= 1f32 - inner;
         }
