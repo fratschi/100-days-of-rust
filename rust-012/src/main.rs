@@ -54,7 +54,7 @@ fn main() {
 
     let sladata = serde_json::from_str(&contents).unwrap();
 
-    let sla = calculate_sla(sladata)*100f32;
+    let sla = calculate_sla(&sladata)*100f32;
 
     println!("Overall SLA: {}%", sla);
 
