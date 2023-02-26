@@ -1,0 +1,15 @@
+{
+    "type": "Serial",
+    "items": [
+        {
+            "type": "Single",
+            "name": "A",
+            "sla": 0.999
+        },
+        {
+            "type": "Single",
+            "name": "B",
+            "sla": 0.999
+        }
+    ]
+}
