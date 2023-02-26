@@ -1,8 +1,6 @@
 use serde::{Deserialize, Serialize};
-use serde_json::json;
 use std::env;
 use std::fs;
-use std::path::PathBuf;
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
 #[serde(tag = "type")]
@@ -54,11 +52,9 @@ fn main() {
 
     let sladata = serde_json::from_str(&contents).unwrap();
 
-    let sla = calculate_sla(&sladata)*100f32;
+    let sla = calculate_sla(&sladata) * 100f32;
 
     println!("Overall SLA: {}%", sla);
-
-
 }
 
 #[cfg(test)]

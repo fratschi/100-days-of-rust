@@ -5,6 +5,7 @@
 * Expect does not work as expented, dont know where the expect string is printed or if its used at all
 * Enums need a descriminator for deserializing
 * Using an old trick to find the correct json: Create the json and then print it to the console
+* Code is stil unused, even if it used in tests. This keeps the code clean.
 * nether to_string or to_string_pretty are directly usable, they escape the json and makes it unusable
 * Rust has nasty side effects on error free lines of code, like this:
   * This has a compile error: 
