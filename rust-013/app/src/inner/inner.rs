@@ -1,0 +1,4 @@
+
+fn inner() {
+    println!("inner");
+}
